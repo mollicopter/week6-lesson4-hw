@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MCR Week 5 Homework</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Calligraffitti&family=Mina&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20b875373b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>
+            Today's Weather and Beyond! <span class="title-emoji"> <i class="fa-solid fa-rocket"></i>
+                <span></h1>
+
+        <form class="search-click" id="city-input">
+
+            <input class="search-bar" type="text" placeholder="Where do you want to check out the weather?"
+                id="specialbtn" />
+
+            <input id="search-text-input" class="btn btn-secondary" type="submit" value="Search" />
+
+            <input id="location" class="btn btn-secondary current-location-option" type="submit"
+                value="Current Location" />
+
+        </form>
+
+        <div class="row current-data">
+            <div class="col-3 current-stats">
+
+
+                <span class="current-time">11:15</span>
+
+
+                <div id="display-searched-city" class="current-city">Saint Paul </div>
+
+
+
+                <div id="alltemp" class="all-temp">
+                    <span id="nowtemp" class="current-temp"> 31</span>
+
+                    <span>°F</span>
+
+                </div>
+                <span class="current-time"></span>
+
+                <span class="today-extra">
+                    <span class="humidity-label"> <i class="fa-solid fa-water"></i> <span id="nowhumidity"
+                            class="humdity-number">2</span> <span>% </span></span>
+
+                    <span class="wind label"> <i class="fa-solid fa-wind"></i> <span id="nowwind"
+                            class="wind-mph">30</span> <span>mph</span></span>
+
+
+
+                </span>
+
+                </span>
+            </div>
+        </div>
+
+
+
+        <script src="src/index.js"></script>
+
+
+</body>
+
+</html>

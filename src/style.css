@@ -1,0 +1,117 @@
+body {
+    font-family: "ABeeZee", sans-serif;
+    color: rgb(88, 88, 88);
+    background: #f8f8ff;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search-click {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 500px;
+    height: 30px;
+    font-style: italic;
+    border-radius: 40px;
+    padding: 18px 3px;
+    background: radial-gradient(788px at 0.7% 3.4%,
+            rgb(164, 231, 192) 0%,
+            rgb(255, 255, 255) 90%);
+    border: solid 1.5px #6c757d;
+}
+
+::placeholder {
+    color: #6c757d;
+    font-size: 15px;
+    font-family: "ABeeZee", sans-serif;
+    text-align: center;
+}
+
+.btn {
+    font-family: "ABeeZee", sans-serif;
+    margin-left: 2px;
+}
+
+.current-location-option {
+    margin-left: 12px;
+}
+
+.current-city {
+    font-size: 30px;
+}
+
+.current-time {
+    font-size: 20px;
+    margin: 0px 5px;
+    color: #666666;
+}
+
+.all-temp {
+    font-size: 40px;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.today-extra {
+    border: solid 2px #6c757d;
+    background: #c7eeff;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 5px #6c757d;
+}
+
+.current-stats {
+    border: solid 2px rgb(164, 231, 192);
+}
+
+.wind-label {
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.fa-wind {
+    margin-left: 30px;
+}
+
+
+
+.low {
+    font-size: 22px;
+    color: #666666;
+}
+
+.day {
+    border: solid 2px #6c757d;
+    background: #c7eeff;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    height: 150px;
+    width: 207px;
+    margin: 0px 3px;
+}
+
+.emoji {
+    font-size: 50px;
+    padding: 10px 0px;
+    color: #7ac38f;
+}
+
+.title-emoji {
+    font-size: 40px;
+    padding: 10px 0px;
+    color: #7ac38f;
+}
